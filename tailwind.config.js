@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./*.{html,js}'],
+  darkMode: 'class',
+  future: {
+    hoverOnlyWhenSupported: true
+  },
   theme: {
     extend: {
       spacing: {
